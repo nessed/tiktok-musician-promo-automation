@@ -1,0 +1,29 @@
+{
+  "_readme": "Copy to config.json and fill in. Paths are relative to this file. Times are local wall-clock time of whoever schedules in TikTok Studio.",
+
+  "photos_dir": "photos",
+  "output_dir": "output",
+  "lyrics_file": "content/lyrics.txt",
+  "hooks_file": "content/hooks.example.txt",
+  "titles_file": "content/titles.example.txt",
+  "skip_photos": [],
+
+  "posts": 42,
+  "first_post": "2026-01-01T00:00",
+  "every_hours": 4,
+  "timezone_note": "times are in the scheduler's local timezone",
+  "seed": 11,
+  "photo_gap": 40,
+
+  "artist_mentions": ["@artist_handle", "@feature_handle"],
+
+  "caption_variants": [
+    {"before": "\"SONG TITLE\" by ", "between": "with ", "after": "out now on all platforms. help me get on the algorithm by sharing n liking 🙏🙏 "},
+    {"before": "\"SONG TITLE\" by ", "between": "x ",    "after": "out everywhere rn. share n like so it gets on the algorithm 🙏 "},
+    {"before": "new one, \"SONG TITLE\" by ", "between": "with ", "after": "out on all platforms. likes n shares help fr 🙏🙏 "},
+    {"before": "\"SONG TITLE\" ", "between": "x ", "after": "streaming everywhere now. help it get on the algorithm, share n like 🙏 "}
+  ],
+
+  "hashtag_pool": ["undergroundrap", "boombaphiphop", "lofirap", "independentartist", "jazzrap", "lofihiphop", "undergroundhiphop", "nujabes"],
+  "hashtags_per_post": 5
+}

@@ -1,0 +1,9 @@
+# your private stuff stays local
+config.json
+photos/
+output/
+content/lyrics.txt
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
